@@ -106,6 +106,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	 chef.add_recipe "yum::epel"
      chef.add_recipe "yum::ius"
      chef.add_recipe "mysql"
+     chef.add_recipe "php"
 	 
 #     chef.run_list = [
 #	   "yum::epel",
